@@ -20,3 +20,7 @@ because of issue in block scope and functional scope
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+// const -> can't be reassigned a value but can't be declared again(block scope)
+// let   -> can be reassigned a value and it can also be declared again(Global scope)
+// var   -> can be reassigned a value and it can also be declared again
