@@ -6,8 +6,10 @@ const repoCount = 50
 // concatenation it is also known as string interpolation
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-// another method of declaring string here it is considered as object and whatever string we are
-//  passing there it is coming like a key value pair like 0:'h'; and it unables us to use various string functions/methods
+// another method of declaring string 
+
+// here it is considered as object and whatever string we are passing there it is coming like a key value pair like 0:'h'; 
+// and it unables us to use various string functions/methods
 const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName[0]);
