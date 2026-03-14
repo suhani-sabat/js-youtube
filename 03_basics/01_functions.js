@@ -22,6 +22,8 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
+// const reuslt = addTwoNumbers(3,"4")          --> 34
+// const result = addTwoNumbers(3,undefined)    --> 3   
 const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
@@ -42,8 +44,8 @@ function loginUserMessage(username = "sam"){
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
-
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+console.log(calculateCartPrice)
+// console.log(calculateCartPrice(200, 400, 500, 2000)) --> rest operator(...) wraps all the incoming value into a single array
 
 const user = {
     username: "hitesh",
