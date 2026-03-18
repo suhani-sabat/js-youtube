@@ -14,6 +14,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(printMe)
 
+// forEach loop has access to its item, index and complete arr at the same time
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
 // } )

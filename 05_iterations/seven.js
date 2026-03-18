@@ -8,3 +8,4 @@ const newNums = myNumers
                 .filter( (num) => num >= 40)
 
 console.log(newNums);
+// diff bet map and filter is that filter returns only if the condition is true whereas map is used if we want to change each and every element 

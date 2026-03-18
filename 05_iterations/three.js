@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps --> They always stores unique keys
 
 const map = new Map()
 map.set('IN', "India")
@@ -37,4 +37,4 @@ const myObject = {
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
     
-// }
+// }    --> it will show error
